@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | EthnicStory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">EthnicStory</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-contact-hero section-pattern">
+        <div class="container">
+          <span class="eyebrow">Let’s connect</span>
+          <h1>Questions about style, sizing or delivery?</h1>
+          <p>Our support team is happy to help you find the perfect look.</p>
+        </div>
+      </section>
+
+      <section class="section-contact-form">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Reach out</h2>
+            <p>Share your requirements and we’ll help you choose the right ethnicity-inspired ensemble.</p>
+            <ul>
+              <li><strong>Email:</strong> hello@ethnicstory.com</li>
+              <li><strong>Phone:</strong> +91 98765 43210</li>
+              <li><strong>Address:</strong> 12 Heritage Lane, Jaipur, India</li>
+            </ul>
+          </div>
+          <form id="contact-form" class="contact-card contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Your email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell us what you're looking for" required></textarea>
+            </label>
+            <button class="button primary" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html">EthnicStory</a>
+          <p>Inspired by India's rich heritage, designed for today's wardrobe.</p>
+        </div>
+        <div class="footer-links">
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
